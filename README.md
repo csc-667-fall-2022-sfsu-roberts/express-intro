@@ -12,5 +12,5 @@ git init .
 Add the following line to `package.json`'s `scripts` entry:
 
 ```json
-'start': 'node index.js'
+"start": "node index.js"
 ```
