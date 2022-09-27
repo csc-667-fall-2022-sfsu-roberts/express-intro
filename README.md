@@ -34,6 +34,12 @@ To be able to use ES6 syntax, add the following line to your `package.json` file
 
 ### Add Dependencies
 
+We will be installing project dependencies that will be placed in a folder named `node_modules` in our project. In order to avoid committing this folder to github, we want to tell git to ignore the folder:
+
+```
+echo "node_modules/" >> .gitignore
+```
+
 To add a dependency to your project, use the `npm install` command:
 
 ```
